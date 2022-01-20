@@ -1,0 +1,100 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&family=Source+Serif+4:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+
+.html {
+    background-color: white;
+}
+
+.menu0 {
+    color: white;
+    margin-top: 40px;
+}
+
+.menu {
+    width: 100;
+    background-color: grey;
+}
+
+.list {
+    display: table;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.link {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: inline-block;
+    font-size: 23px;
+    margin-left: 20px;    
+    margin-right: 20px;
+    float: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttonsCont {
+    width: 300px;
+    padding: 0;
+    display: flex;
+}
+
+.contButtons {
+    display: flex;
+    margin-left: 26%;
+}
+
+.button {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    height: 130px;
+    width: 300px;
+    border: 4px solid green;
+    border-radius: 13px;
+    flex: 1;
+    /* Font size */
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+:hover .button {
+    border-color: black;
+}
+*/
+
+.pic {
+    height: 250px;
+    width: 400px;
+}
+
+.picCont {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.context1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.score00 {
+    text-align: center;
+    background-color: green;
+    border: 4px solid green;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
